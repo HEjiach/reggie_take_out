@@ -14,6 +14,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
             //默认key序列化器为：JdkSerializationRedisSerializer
             redisTemplate.setKeySerializer(new StringRedisSerializer());
             redisTemplate.setConnectionFactory(connectionFactory);
-            return redisTemplate;
+            return redisTemplate  ;
         }
     }
