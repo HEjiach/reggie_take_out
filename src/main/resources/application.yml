@@ -19,4 +19,9 @@ mybatis-plus:
       id-type: ASSIGN_ID
 
 reggie:
-    path: D:\img\
+  path: D:\img\
+redis:
+  host: 127.0.0.1 #这里换成localhost或者你自己的linux上装的redis
+  password: root
+  port: 6379
+  database: 0
