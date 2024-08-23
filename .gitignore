@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.git
+logs
+rebel.xml
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+offline_user.md
